@@ -1,0 +1,58 @@
+/* ===== Reset some default styles ===== */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/* ===== Reset some default styles - END ===== */
+
+
+
+/* ===== General Setup ===== */
+body {
+    font-family: "Figtree", sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+/* ===== General Setup - END ===== */
+
+
+
+/* ===== Header ===== */
+header {
+    background: url('your-background-image.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+
+}
+
+/* Navigation Bar */
+nav {
+
+}
+
+nav a {
+
+}
+/* Navigation Bar - END */
+
+/* ===== Header - END ===== */
+
+
+
+/* ===== Main Content ===== */
+.bf-main {
+
+}
+/* ===== Main Content - END ===== */
+
+
+
+/* ===== Footer ===== */
+footer {
+
+}
+/* ===== Footer - END ===== */
