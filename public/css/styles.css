@@ -87,6 +87,13 @@ nav a {
     padding-top: 50px;
 }
 
+.how-it-works-container {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/beautyfill-cosmetics.appspot.com/o/images%2Fhowitworks-background-d.jpg?alt=media&token=14d65e67-f051-474e-a0d5-c3f69147b3f0);
+    display: flex;
+    position: relative;
+    padding-bottom: 82px;
+}
+
 img.how-it-works-step-image {
     width: 100%;
     max-width: 400px;
