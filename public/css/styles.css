@@ -21,7 +21,7 @@ body {
 
 h1 {
     font-weight: 900;
-    font-size: clamp(27px,2vw,66px);
+    font-size: clamp(27px,4vw,66px);
     line-height: 76px;
     font-family: 'Noto Serif Display';
 }
@@ -33,13 +33,13 @@ h1.alt {
 
 h2 {
     font-weight: 600;
-    font-size: clamp(30px,2vw,46px);
+    font-size: clamp(30px,4vw,46px);
     line-height: 76px;
 }
 
 h2.alt {
     font-weight: 800;
-    font-size: clamp(38px,2vw,58px);
+    font-size: clamp(38px,4vw,58px);
     font-family: 'Noto Serif Display';
 }
 /* ===== General Setup - END ===== */
@@ -81,6 +81,10 @@ nav a {
     height: 285px;
     background: #AAA191;
     width: 100%
+}
+
+.how-it-works-banner h2 {
+    padding-top: 50px;
 }
 
 img.how-it-works-step-image {
