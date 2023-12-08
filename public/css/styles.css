@@ -224,6 +224,14 @@ img.how-it-works-step-image {
     text-decoration: underline;
 }
 
+.event-calendar-banner-button.event-button:hover {
+    color: #ffffff;
+}
+
+.event-calendar-banner-button.contact-us-button:hover {
+    color: #000000;
+}
+
 .event-button {
     color: #ffffff;
     background-color: #000000;
