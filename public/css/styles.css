@@ -165,6 +165,10 @@ img.how-it-works-step-image {
     .how-it-works-step {
         margin: 0 0 54px;
     }
+
+    img.how-it-works-step-image {
+        max-width: 323px;
+    }
 }
 
 /* --- Event Calendar --- */
