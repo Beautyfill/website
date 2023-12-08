@@ -226,6 +226,11 @@ img.how-it-works-step-image {
 
 .event-calendar-banner-button:hover {
     text-decoration: underline;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
 }
 
 .event-calendar-banner-button.event-button:hover {
@@ -253,14 +258,34 @@ img.how-it-works-step-image {
 }
 
 @media (max-width: 768px) {
+    .event-calendar-banner {
+        flex-direction: column;
+        padding: 46px 12px;
+    }
+
+    .event-calendar-banner-buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .event-calendar-banner-button {
-        max-width: unset;
+        max-width: 352px;
+        width: 100%;
+    }
+
+    .event-calendar-banner-button:first-of-type {
+        margin-bottom: 10px;
     }
 
     .event-calendar-banner-text {
         margin-right: 0;
+        width: 100%;
+        max-width: 323px;
+        margin-bottom: 33px;
     }
 }
+
 /* ===== Main Content - END ===== */
 
 
