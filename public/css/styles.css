@@ -220,6 +220,11 @@ img.how-it-works-step-image {
     background-color: transparent;
 }
 
+/* --- Actual Calendar Area --- */
+.refill-event-calendar-container {
+    margin: 71px 12px 59px;
+}
+
 @media (max-width: 768px) {
     .event-calendar-banner-button {
         max-width: unset;
