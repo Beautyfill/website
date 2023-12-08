@@ -157,6 +157,7 @@ img.how-it-works-step-image {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0 34px;
     }
 
     .how-it-works-step-number {
@@ -169,10 +170,6 @@ img.how-it-works-step-image {
 
     .how-it-works-step {
         margin: 0 0 54px;
-    }
-
-    img.how-it-works-step-image {
-        max-width: 323px;
     }
 }
 
@@ -267,6 +264,7 @@ img.how-it-works-step-image {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .event-calendar-banner-button {
