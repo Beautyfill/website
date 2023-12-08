@@ -171,8 +171,8 @@ img.how-it-works-step-image {
 .event-calendar-banner {
     display: flex;
     background-color: #A6B99E;
-    padding: 87px 0;
-    margin: 0 12px;
+    padding: 87px 12px;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
@@ -186,10 +186,14 @@ img.how-it-works-step-image {
     text-align: left;
     color: #000000;
     margin-right: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .event-calendar-banner-buttons {
     display: flex;
+    width: 50%;
 }
 
 .event-calendar-banner-button {
@@ -207,6 +211,17 @@ img.how-it-works-step-image {
     margin: 0 9px;
     width: 100%;
     max-width: 287px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.event-calendar-banner-button:hover {
+    text-decoration: underline;
 }
 
 .event-button {
